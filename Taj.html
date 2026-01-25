@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taj Ahmed - Lead Engineer Portfolio">
+    <meta name="author" content="Taj Ahmed">
+    <title>Taj Ahmed | Lead Engineer</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="light-theme">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">TA.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white ms-lg-3 px-4 btn-contact" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center position-relative overflow-hidden">
+        <div class="container position-relative z-1">
+            <div class="row align-items-center">
+                <div class="col-lg-7 fade-in-up">
+                    <span class="badge bg-light text-primary mb-3 border border-primary px-3 py-2 rounded-pill">Hello, I'm</span>
+                    <h1 class="display-3 fw-bold mb-3">Taj Ahmed</h1>
+                    <h2 class="h2 text-muted mb-4">Lead Engineer at <span class="text-primary">JustGo</span></h2>
+                    <p class="lead mb-5 text-secondary w-75">Building scalable web systems, leading engineering teams, and integrating AI tools into development workflows.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#projects" class="btn btn-primary btn-lg px-4 py-2 shadow-sm">View Projects</a>
+                        <a href="#contact" class="btn btn-outline-dark btn-lg px-4 py-2">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background Overlay -->
+        <div class="hero-bg-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden reveal">
+                        <div class="row g-0">
+                            <div class="col-md-4 bg-primary text-white d-flex align-items-center justify-content-center p-5">
+                                <div class="text-center">
+                                    <i class="bi bi-person-circle display-1 mb-3"></i>
+                                    <h3 class="fw-bold">Taj Ahmed</h3>
+                                    <p class="mb-0 text-white-50">Bangladesh</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-5 bg-white">
+                                <h2 class="mb-4 fw-bold">About Me</h2>
+                                <p class="text-secondary mb-4">
+                                    I am a Lead Engineer with extensive experience in building scalable web systems and leading engineering teams. 
+                                    My passion lies in creating efficient development workflows by integrating AI tools like GitHub Copilot.
+                                    Based in Bangladesh, I bring a global perspective to solving technical challenges.
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-6 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="icon-box bg-light text-primary rounded-circle me-3">
+                                                <i class="bi bi-geo-alt-fill"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-0 fw-bold">Location</h6>
+                                                <small class="text-muted">Bangladesh</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="icon-box bg-light text-primary rounded-circle me-3">
+                                                <i class="bi bi-building-fill"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-0 fw-bold">Company</h6>
+                                                <small class="text-muted">JustGo</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h6 class="text-primary fw-bold text-uppercase ls-2">Expertise</h6>
+                <h2 class="fw-bold">Technical Skills</h2>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Frontend -->
+                <div class="col-md-4 reveal">
+                    <div class="card h-100 border-0 shadow-hover p-4 text-center skill-card">
+                        <div class="mb-3 text-primary">
+                            <i class="bi bi-code-slash display-4"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Frontend</h4>
+                        <ul class="list-unstyled text-secondary">
+                            <li class="mb-2">HTML5 & CSS3</li>
+                            <li class="mb-2">JavaScript (ES6+)</li>
+                            <li class="mb-2">Bootstrap 5</li>
+                            <li class="mb-2">React.js</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="col-md-4 reveal" style="transition-delay: 100ms;">
+                    <div class="card h-100 border-0 shadow-hover p-4 text-center skill-card">
+                        <div class="mb-3 text-primary">
+                            <i class="bi bi-hdd-stack display-4"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Backend</h4>
+                        <ul class="list-unstyled text-secondary">
+                            <li class="mb-2">Node.js</li>
+                            <li class="mb-2">Scalable Systems</li>
+                            <li class="mb-2">API Design</li>
+                            <li class="mb-2">Database Management</li>
+                            <li>System Architecture</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="col-md-4 reveal" style="transition-delay: 200ms;">
+                    <div class="card h-100 border-0 shadow-hover p-4 text-center skill-card">
+                        <div class="mb-3 text-primary">
+                            <i class="bi bi-tools display-4"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Tools & workflows</h4>
+                        <ul class="list-unstyled text-secondary">
+                            <li class="mb-2">Git & GitHub</li>
+                            <li class="mb-2">GitHub Copilot (AI)</li>
+                            <li class="mb-2">Team Leadership</li>
+                            <li class="mb-2">Agile Methodologies</li>
+                            <li>CI/CD Pipelines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h6 class="text-primary fw-bold text-uppercase ls-2">Career Path</h6>
+                <h2 class="fw-bold">Experience</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <div class="timeline-item d-flex pb-5 position-relative">
+                        <div class="timeline-marker bg-primary rounded-circle border border-4 border-white"></div>
+                        <div class="timeline-content ps-5">
+                            <div class="card border-0 shadow-sm p-4">
+                                <div class="d-flex justify-content-between align-items-center flex-wrap mb-2">
+                                    <h4 class="fw-bold mb-0 text-primary">Lead Engineer</h4>
+                                    <span class="badge bg-light text-dark border">Present</span>
+                                </div>
+                                <h5 class="fw-bold mb-3">JustGo</h5>
+                                <p class="text-secondary mb-3">
+                                    Leading the engineering team to build scalable web systems. 
+                                    Responsible for architectural decisions, team mentorship, and driving technical excellence.
+                                </p>
+                                <ul class="mb-0 text-secondary ps-3">
+                                    <li>Architecting scalable web solutions</li>
+                                    <li>Leading and mentoring engineering teams</li>
+                                    <li>Integrating AI tools like GitHub Copilot to boost productivity</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-5 reveal">
+                <div>
+                    <h6 class="text-primary fw-bold text-uppercase ls-2">Portfolio</h6>
+                    <h2 class="fw-bold">Featured Projects</h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                        <div class="card-img-top bg-secondary bg-opacity-10 d-flex align-items-center justify-content-center p-5" style="height: 200px;">
+                            <i class="bi bi-pie-chart-fill display-1 text-primary opacity-50"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Finance Tracker</h5>
+                            <p class="card-text text-muted small mb-3">
+                                A comprehensive personal finance management tool to track income, expenses, and savings goals.
+                            </p>
+                            <div class="d-flex gap-2 mb-4">
+                                <span class="badge bg-light text-secondary border">JavaScript</span>
+                                <span class="badge bg-light text-secondary border">Chart.js</span>
+                            </div>
+                            <a href="#" class="btn btn-link p-0 text-decoration-none fw-bold">View Case Study <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 100ms;">
+                    <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                        <div class="card-img-top bg-secondary bg-opacity-10 d-flex align-items-center justify-content-center p-5" style="height: 200px;">
+                            <i class="bi bi-people-fill display-1 text-primary opacity-50"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Team Management System</h5>
+                            <p class="card-text text-muted small mb-3">
+                                A collaborative platform for managing engineering teams, sprints, and tasks efficiently.
+                            </p>
+                            <div class="d-flex gap-2 mb-4">
+                                <span class="badge bg-light text-secondary border">Node.js</span>
+                                <span class="badge bg-light text-secondary border">Socket.io</span>
+                            </div>
+                            <a href="#" class="btn btn-link p-0 text-decoration-none fw-bold">View Case Study <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 200ms;">
+                    <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                        <div class="card-img-top bg-secondary bg-opacity-10 d-flex align-items-center justify-content-center p-5" style="height: 200px;">
+                            <i class="bi bi-airplane-fill display-1 text-primary opacity-50"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Travel Planner</h5>
+                            <p class="card-text text-muted small mb-3">
+                                An interactive itinerary builder for travel enthusiasts with map integration and cost estimation.
+                            </p>
+                            <div class="d-flex gap-2 mb-4">
+                                <span class="badge bg-light text-secondary border">API Integration</span>
+                                <span class="badge bg-light text-secondary border">Maps</span>
+                            </div>
+                            <a href="#" class="btn btn-link p-0 text-decoration-none fw-bold">View Case Study <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Interests Section -->
+    <section id="achievements" class="section-padding bg-light">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Achievements -->
+                <div class="col-lg-6 reveal">
+                    <h3 class="fw-bold mb-4"><i class="bi bi-trophy-fill text-primary me-2"></i> Achievements</h3>
+                    <div class="list-group shadow-sm rounded-3">
+                        <div class="list-group-item p-3 border-0 border-bottom">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1 fw-bold">Led Major System Migration</h6>
+                            </div>
+                            <p class="mb-1 small text-secondary">Successfully migrated legacy systems to modern scalable architecture at JustGo.</p>
+                        </div>
+                        <div class="list-group-item p-3 border-0 border-bottom">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1 fw-bold">Workflow Optimization</h6>
+                            </div>
+                            <p class="mb-1 small text-secondary">Integrated GitHub Copilot, reducing development time by 30%.</p>
+                        </div>
+                        <div class="list-group-item p-3 border-0">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1 fw-bold">Team Growth</h6>
+                            </div>
+                            <p class="mb-1 small text-secondary">Scaled the engineering team from 5 to 15 developers while maintaining high delivery standards.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interests -->
+                <div class="col-lg-6 reveal" style="transition-delay: 100ms;">
+                    <h3 class="fw-bold mb-4"><i class="bi bi-heart-fill text-danger me-2"></i> Interests</h3>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-white rounded-3 shadow-sm h-100 d-flex align-items-center">
+                                <i class="bi bi-graph-up-arrow text-success fs-4 me-3"></i>
+                                <span class="fw-medium">Personal Finance</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-white rounded-3 shadow-sm h-100 d-flex align-items-center">
+                                <i class="bi bi-globe-americas text-info fs-4 me-3"></i>
+                                <span class="fw-medium">Travel Planning</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-white rounded-3 shadow-sm h-100 d-flex align-items-center">
+                                <i class="bi bi-controller text-dark fs-4 me-3"></i>
+                                <span class="fw-medium">Football Manager</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-white rounded-3 shadow-sm h-100 d-flex align-items-center">
+                                <i class="bi bi-music-note-beamed text-warning fs-4 me-3"></i>
+                                <span class="fw-medium">Ukulele</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5 reveal">
+                        <h6 class="text-primary fw-bold text-uppercase ls-2">Get in Touch</h6>
+                        <h2 class="fw-bold">Contact Me</h2>
+                        <p class="text-secondary">Have a project in mind or just want to say hi?</p>
+                    </div>
+
+                    <div class="card border-0 shadow-lg rounded-4 overflow-hidden reveal">
+                        <div class="card-body p-5">
+                            <form id="contactForm" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label fw-bold small">Name</label>
+                                        <input type="text" class="form-control bg-light border-0 py-3" id="name" placeholder="Your Name" required>
+                                        <div class="invalid-feedback">Please enter your name.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label fw-bold small">Email</label>
+                                        <input type="email" class="form-control bg-light border-0 py-3" id="email" placeholder="name@example.com" required>
+                                        <div class="invalid-feedback">Please enter a valid email.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label fw-bold small">Subject</label>
+                                        <input type="text" class="form-control bg-light border-0 py-3" id="subject" placeholder="Project Inquiry" required>
+                                        <div class="invalid-feedback">Please enter a subject.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label fw-bold small">Message</label>
+                                        <textarea class="form-control bg-light border-0 py-3" id="message" rows="5" placeholder="Your message here..." required></textarea>
+                                        <div class="invalid-feedback">Please enter your message.</div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn btn-primary w-100 py-3 fw-bold rounded-pill">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="formSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                                Message sent successfully! I'll get back to you soon.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h4 class="fw-bold mb-3">TA.</h4>
+                    <p class="text-white-50">Lead Engineer based in Bangladesh, focused on building scalable systems and empowering teams.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#hero" class="text-white-50 text-decoration-none hover-white">Home</a></li>
+                        <li class="mb-2"><a href="#projects" class="text-white-50 text-decoration-none hover-white">Projects</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none hover-white">About Me</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Connect</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;"><i class="bi bi-github"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;"><i class="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center text-white-50 small">
+                &copy; 2024 Taj Ahmed. All rights reserved. Built with Bootstrap 5.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
